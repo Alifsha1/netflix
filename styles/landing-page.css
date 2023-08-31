@@ -1,0 +1,71 @@
+.wrapper{
+  height: 100vh;
+  position: relative;
+  transition: height 0.3s ease-in-out;
+}
+.landing-page{
+  background-image: url("../images/background/Netflix-Background.jpg");
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.4), rgba(0,0,0,0.9));
+}
+.landing-center{
+  text-align: center;
+  z-index: 1;
+}
+.landing-form{
+  z-index: 1;
+}
+
+.form-email{
+  width: 350px;
+  min-width: auto;
+  height: 50px;
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  color: white; /* Change the font color */
+}
+.form-email:focus{
+  background-color: rgba(0,0,0,0.6);
+  color: white; /* Change the font color */
+  font-weight: bold;
+  /* border-color: rgb(228, 16, 16); */
+}
+.form-email::placeholder{
+  color: rgb(164, 164, 164); 
+  font-weight: bolder;
+  position: absolute;
+  transition: all 0.3s ease-in ;
+}
+.form-email:focus::placeholder{
+  font-size: small;
+  top: 2px;
+}
+.get-started{
+  background-color: rgb(229, 9, 20);
+  width: 200px;
+  height: 50px;
+  font-size: 20px ;
+  font-weight: bold;
+}
+.landing-center h1{
+  font-weight: 800;
+}
+.landing-center p{
+  font-weight: 600;
+  font-size: 18px;
+}
+

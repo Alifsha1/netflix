@@ -1,0 +1,61 @@
+@media (min-width:1280px) and (max-width:1800px){
+  .netflix-top{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .netflix-logo{
+    width: 200px;
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media (max-width:992px){
+  .wrapper{
+    height: 90vh;
+    position: relative;
+  }
+  .form-email{
+    height: 50px;
+    padding: 14px;
+  }
+  .get-started{
+    height: 50px;
+    padding: 10px;
+  }
+  .netflix-logo{
+    width: 140px;
+    position: relative;
+    top: -7px;
+  }
+}
+@media (min-width:992px) {
+  .section-img{
+    max-width: 500px;
+  }
+
+}
+@media (max-width:500px) {
+  .netflix-logo{
+    width: 120px;
+    margin: 0px;
+  }
+  .sign-in{
+    margin-top: 8px;
+    margin-left: 18px;
+    
+  }
+  
+
+  .netflix-top{
+ 
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+  .form-select{
+    width: 75px;
+    margin-top: 8px;
+  }
+  
+}
+

@@ -1,0 +1,15 @@
+.footer{
+  background-color: rgb(0,0,0);
+  width: 100vw;
+  padding: 0;
+}
+.footer-container{
+  color: rgb(184, 184, 184);
+}
+.footer .row{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer span{
+  text-decoration: underline;
+}

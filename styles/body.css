@@ -1,0 +1,39 @@
+.section{
+  background-color: rgb(0, 0, 0);
+}
+.section .container{
+  margin: 50px auto;
+}
+.accordian-section{
+  background-color: rgb(0, 0, 0);
+  padding: 30px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.accordion-item{
+  background-color: black;
+  border: none;
+  color: rgb(255,255,255);
+  margin: 10px auto;
+}
+.accordion-button{
+  background-color: rgb(49, 49, 49) ;
+  color: white;
+  margin: 5px auto;
+  font-weight: 700;
+
+} 
+.accordion-button:hover{
+  background-color:rgb(95, 95, 94) ; ;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(49, 49, 49) ;
+  color: white;
+  border: none;
+}
+.accordion-body{
+   background-color: rgb(49, 49, 49) ;
+}
+.accordion-collapse{
+  background-color:  rgb(49, 49, 49) ;
+}
